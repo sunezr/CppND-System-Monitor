@@ -22,6 +22,7 @@ const std::string kPasswordPath{"/etc/passwd"};
 float MemoryUtilization();
 long UpTime();
 std::vector<int> Pids();
+int ProcessPopulate(std::string type);   // Helper function for process populate, default type: processes
 int TotalProcesses();
 int RunningProcesses();
 std::string OperatingSystem();
